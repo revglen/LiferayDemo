@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.studentservice.model.Student">
+		<field name="StudentID" type="long" />
+		<field name="FirstName" type="String" />
+		<field name="LastName" type="String" />
+		<field name="DOB" type="Date" />
+		<field name="Email" type="String" />
+		<field name="CreatedDate" type="Date" />
+		<field name="ModifiedDate" type="Date" />
+	</model>
+</model-hints>

@@ -1,0 +1,4 @@
+Bundle-Name: Student
+Bundle-SymbolicName: com.liferay
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.constants

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_2_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.liferay.studentservice">
+	<namespace>StudentService</namespace>
+	<entity name="Student" table="Student" local-service="true" remote-service="true">
+
+		<!-- PK fields -->
+
+		<!-- Group instance -->
+
+		<!-- Audit fields -->
+        <column name="StudentID" type="long" primary="true"></column>
+        <column name="FirstName" type="String"></column>
+        <column name="LastName" type="String"></column>
+        <column name="DOB" type="Date"></column>
+        <column name="Email" type="String"></column>
+        <column name="CreatedDate" type="Date"></column>
+        <column name="ModifiedDate" type="Date"></column>
+        <order by="asc">
+            <order-column name="StudentID" order-by="asc"></order-column>
+        </order>
+	</entity>
+
+</service-builder>
